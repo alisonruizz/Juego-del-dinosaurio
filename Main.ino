@@ -160,7 +160,7 @@ void loop() {
     if (dino.obtenerPosicion() == 0 && cactus.obtenerPosicion() == 0) {
       gameOver = true;
     }
-     // Comprobar la colisión con el cactus
+     // Comprobar la colisión con el pterodactilo
     if (dino.obtenerPosicion() == 1 && pterodactilo.obtenerPosicion() == 0) {
       gameOver = true;
     }
